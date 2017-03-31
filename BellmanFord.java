@@ -8,7 +8,7 @@ public class BellmanFord{
 
     BellmanFord(WGraph g, int source) throws Exception{
         
-        // update pubic source
+        // update public source
         this.source = source;
         // init dist and predecessors
         this.distances = new int[g.getNbNodes()];
